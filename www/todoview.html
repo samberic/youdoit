@@ -11,8 +11,8 @@
 
 <body>
 
-<script src="/js/handlebars.js"></script>
-<script src="/js/socket.io.js"></script>
+<script src="js/handlebars.js"></script>
+<script src="js/socket.io.js"></script>
 <script>
     var port = ''
 
@@ -151,17 +151,13 @@
     var target;
     var user;
     $(document).ready(function () {
-        alert('1')
         $.get("http://" + url + "/getToDo?id=" + id, function (data) {
-            alert('2')
             var html = toDoTemplate(data.todo)
             $('#todo').html(html)
             target = data.todo.target;
             user = data.todo.user;
-            alert('3')
 
             $.get("http://" + url + "/chatHistory?user=" + user + "&target=" + target + "&id=" + id, function (data) {
-                alert('4')
 
                 for (var i = 0; i < data.messages.length; i++) {
                     if (data.messages[i].user == user) {
