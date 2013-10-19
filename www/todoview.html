@@ -14,10 +14,15 @@
 <script src="/js/socket.io.js"></script>
 <script>
     var port = ''
-    var url = "pleaseyoudoit.herokuapp.com"
+   // var url = "pleaseyoudoit.herokuapp.com"
+   // var socketurl = "pleaseyoudoit.herokuapp.com:80"
+
+    //var user = 'Sam'
     var user = 'Tariq'
     var target = 'Sam'
-  // var url = "localhost:3000", port = ':3000'
+    //var target = 'Tariq'
+    var url = "localhost:3000"
+    var socketurl = "http://localhost:3000"
 
 
 
@@ -130,8 +135,18 @@
     });
 
     $(document).ready(function () {
-     //   $.get("http://" + url + port + "/port",function (port) {
-            var socket = io.connect(url + ":80");
+        $.get("http://" + url + "/chatHistory?user=" + user + "&target=" + target, function (data) {
+            for(var i = 0; i < data.messages.length; i++){
+                if(data.messages[i].user == user){
+                    var html = usTemplate(data.messages[i])
+                    $('#messages').append(html)
+                }else{
+                    var html = themTemplate(data.messages[i])
+                    $('#messages').append(html)
+                }
+            }
+        })
+            var socket = io.connect(socketurl);
             socket.emit("join", {user:user, target:target})
 
             socket.on('message', function(data){
