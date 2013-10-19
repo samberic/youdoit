@@ -1,53 +1,63 @@
 <head>
+
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <title>New Todo</title>
+
 </head>
+<html>
+<body>
 
 
+<div class="todo" style="margin-top:0px;">
 
 
+    <div class="contactlogo">
+        <p>Sa
 
-	<div class="todo" style="margin-top:0px;">
+        <p/>
+    </div>
+    <div class="todotitle">
+        <p>Sam Atkinson</p>
+    </div>
+    <div class="todoowner">
+        <p>07538744469</p>
+    </div>
 
-
-		<div class="contactlogo">
-			<p>Sa<p/>
-		</div>
-		<div class="todotitle">
-			<p>Sam Atkinson</p>
-		</div>
-		<div class="todoowner">
-			<p>07538744469</p>
-		</div>
-
-	</div>
-
-
-
-
-
-
-
+</div>
 
 
 <div style="position:fixed;bottom:0;left:0;background:#e0e0e0;width:100%;height:50px;opacity:0.9;">
-	
-
-<form action="demo_form.asp">
 
 
-  
+    <form id="theForm">
+        <div style="float:left;height:50px;width:70%;background:white;font-size:15px;">
+            <input type="text" id="todo" placeholder="Type action here"
+                   style="background:none;border:none;height:100%;width:100%;font-size:15px;margin-left:10px;">
+        </div>
 
-	<div style="float:left;height:50px;width:70%;background:white;font-size:15px;">
-		<input type="text" name="fname" placeholder="Type action here" style="background:none;border:none;height:100%;width:100%;font-size:15px;margin-left:10px;">
-	</div>
 
+        <div style="float:left;height:50px;width:15%;margin:0px;background:green;"></div>
 
+        <input type="submit" id="submit" value="Submit"
+               style="float:left;height:50px;width:15%;margin:0px;background:#cfcfcf;border:none;">
+    </form>
+</div>
 
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+    //var url = "pleaseyoudoit.herokuapp.com"
+    var url = "localhost:3000"
+
+            $(document).bind("mobileinit", function(){
+                $.support.cors = true
+                $.mobile.allowCrossDomainPages = true
+            });
+
+<<<<<<< HEAD
 	<button style="float:left;height:50px;width:15%;margin:0px;background:#ecf0f1;border:none;">
 		<i class="icon-calendar-empty"></i>
 	</button>
@@ -56,7 +66,24 @@
                 <i class="icon-play"></i>
             </button>
 
+=======
 
+    $(document).ready(function () {
+        $("#theForm").submit(function (e) {
+            e.preventDefault(); //prevent default form submit
+            $.get("http://"+ url +"/newToDo?from=Tariq&target=Sam&todo=" + $('#todo').val(),function (data) {
+                $(".result").html(data);
+                alert("Load was performed.");
+            }).fail(function (e) {
+                        alert('error' + e)
+                    });
+            return false;
+        });
+>>>>>>> 9fc44b2b433e396b950d36cd99e1d15a8bb5b394
 
-</form>
-</div>
+    });
+</script>
+<script src="js/jquery-mobile.js"></script>
+
+</body>
+</html>
