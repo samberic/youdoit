@@ -135,7 +135,7 @@
 
 
     $(document).ready(function () {
-        $.get("http://" + url + "/allChats?user=Sam",function (data) {
+        $.get("http://" + url + "/allChats?user=" + localStorage['user'],function (data) {
             var html = template(data);
             $('#contacts').html(html)
         }).fail(function (e) {

@@ -9,6 +9,7 @@
         <title>New Todo</title>
 
 </head>
+
 <body>
 
 
@@ -19,13 +20,13 @@
         </a>  
 
         <div class="contactlogo">
-            <p>Sa<p/>
+            <p id="logo"><p/>
         </div>
         <div class="todotitle">
-            <p>Sam Atkinson</p>
+            <p id="name"></p>
         </div>
         <div class="todoowner">
-            <p>07538744469</p>
+            <p id="phone">07538744469</p>
         </div>
 
     </div>
@@ -53,6 +54,9 @@
 
 <script src="js/jquery-mobile.js"></script>
 <script src="js/jquery.js"></script>
+    <script src="js/purl.js" type="text/javascript">
+
+    </script>
 <script type="text/javascript">
     var url = "pleaseyoudoit.herokuapp.com"
     //var url = "localhost:3000"
@@ -64,13 +68,15 @@
 
 
     $(document).ready(function () {
+        var user = $.url().param('user');
+        $('#logo').html(user.substring(0,2))
+        $('#name').html(user)
         $("#theForm").submit(function (e) {
             e.preventDefault(); //prevent default form submit
-            $.get("http://"+ url +"/newToDo?from=Tariq&target=Sam&todo=" + $('#todo').val(),function (data) {
-                $(".result").html(data);
-            }).fail(function (e) {
-                        alert('error' + e)
-                    });
+            $.get("http://"+ url +"/newToDo?from="+ localStorage['user'] +"&target="+ user +"&todo=" + $('#todo').val(),function (data) {
+                window.location.replace('/todoview.html?id=' + data);
+
+            })
             return false;
         });
 

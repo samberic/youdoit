@@ -141,7 +141,7 @@
 
 
     $(document).ready(function () {
-        $.get("http://" + url + "/getToDos?user=Sam",function (data) {
+        $.get("http://" + url + "/getWaiting?user=Sam",function (data) {
             var html = template(data);
             $('#todos').html(html)
         }).fail(function (e) {
