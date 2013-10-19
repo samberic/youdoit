@@ -1,133 +1,49 @@
+<html>
+
 <head>
     <meta charset="utf-8"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <title>Agenda</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <title>Delegate</title>
 </head>
-<script src="js/handlebars.js"></script>
 
 
-<div class="topnav" style="position:fixed;top:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.96;">
-
-
-    <div style="position:fixed;top:10px;left:10px;height:30px;width:40px;background:#;">
-        <i class="icon-ellipsis-vertical"></i>
-    </div>
-
-
-    <div style="margin:0px auto;width:210px;height:30px;background:white;margin-top:10px;border-radius:5px;">
-
-        <div style="float:left;width:70px;height:30px;background:#bdc3c7;border-bottom-left-radius:5px;border-top-left-radius:5px;">
-            <i class="icon-unchecked"></i>
-        </div>
-
-        <div style="float:left;width:70px;height:30px;background:;">
-            <i class="icon-exclamation"></i>
-        </div>
-
-        <div style="float:left;width:70px;height:30px;background:;border-bottom-right-radius:5px;border-top-right-radius:5px;">
-            <i class="icon-check"></i>
-        </div>
-
-    </div>
-
-</div>
-<script type="text/javascript">
-    Handlebars.registerHelper('logo', function (name) {
-        return name.substring(0, 2);
-    });
-</script>
-
-<script id="todo-template" type="text/x-handlebars-template">
-    {{#each todos}}
-    <a href="todoview.html" style="text-decoration:none;color:#34495e;">
-        <div class="todo">
-
-            <div class="contactlogo">
-                <p>{{{logo from}}}
-
-                <p/>
-            </div>
-            <div class="todotitle">
-                <p>{{todo}}</p>
-            </div>
-            <div class="todoowner">
-                <p>{{from}}</p>
-            </div>
-            <div class="tododate">
-                <p class="time">09:30</p>
-
-                <p class="day">18</p>
-
-                <p class="month">Oct</p>
-            </div>
-
-        </div>
-    </a>
-    {{/each}}
-</script>
-<div id="todos" style="margin-top:60px;"></div>
-
-
-<div class="bottomnav" style="position:fixed;bottom:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.9;">
-
-    <div style="float:left;width:20%;height:60px;background:#bdc3c7;">
-        <i class="icon-tasks"></i>
-    </div>
-
-    <div style="float:left;width:20%;height:60px;">
-        <i class="icon-user"></i>
-    </div>
-
-
-    <a style="float:left;width:20%;height:60px;text-decoration:none;color:black;" href="contacts.html">
-        <i class="icon-plus"></i>
-    </a>
-
-
-    <div style="float:left;width:20%;height:60px;">
-        <i class="icon-group"></i>
-    </div>
-
-    <div style="float:left;width:20%;height:60px;">
-        <i class="icon-inbox"></i>
-    </div>
-
-
-</div>
+<body>
 <script src="js/jquery.js"></script>
 
+<div style="width:100%;height:100%;background:#34495e;">
+
+
+    <a href="contactview.html" style="position:fixed;top:50%;left:50%;margin-left:-70px;margin-top:-90px;text-decoration:none;">
+        <div class="contactlogo" style="background-color:#2c3e50;height:120px;width:120px;">
+            <p style="font-size:50px;margin:30px;margin-left:28px;">De<p/>
+        </div>
+    </a>
+
+</div>
+
+<div style="position:fixed;bottom:30%;left:15%;width:100%;height:50px;opacity:0.9;">
+
+    <form id="login">
+        <div style="height:50px;width:70%;background:none;font-size:25px;">
+            <input type="text" id="username" placeholder="Username"
+                   style="background:none;border:none;height:100%;width:100%;font-size:20px;text-align:center;border-bottom:1px solid #2c3e50;">
+            <button>login</button>
+        </div>
+    </form>
+
+
+</div>
 <script type="text/javascript">
-    var url = "pleaseyoudoit.herokuapp.com"
-    //var url = "localhost:3000"
-    var source = $("#todo-template").html();
-    var template = Handlebars.compile(source);
-
-    $(document).bind("mobileinit", function () {
-        $.support.cors = true
-        $.mobile.allowCrossDomainPages = true
-    });
-
-
     $(document).ready(function () {
-        $.get("http://" + url + "/getToDos?user=Sam",function (data) {
-
-            var html = template(data);
-            $('#todos').html(html)
-        }).fail(function (e) {
-                    alert('error' + e)
-                });
-        return false;
-
-    });
+        $("#login").submit(function (e) {
+            e.preventDefault(); //prevent default form submit
+            localStorage['user'] = $('#username').val()
+            window.location.replace('agenda.html');
+        });})
 </script>
-<script src="js/jquery-mobile.js"></script>
-
-
-
-
-
-
+</body>
+</html>

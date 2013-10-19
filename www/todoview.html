@@ -11,9 +11,7 @@
 
 <body>
 
-<script src="js/handlebars.js"></script>
-
-
+<script src="/js/handlebars.js"></script>
 <script src="/js/socket.io.js"></script>
 <script>
     var port = ''
@@ -133,7 +131,6 @@
 
 <script src="js/jquery.js"></script>
 
-<script src="js/purl.js"></script>
 <script type="text/javascript">
     var themSource = $("#them-template").html();
     var themTemplate = Handlebars.compile(themSource);
@@ -148,7 +145,7 @@
         $.mobile.allowCrossDomainPages = true
     });
 
-    var id = $.url().param('id');
+    var id = localStorage['todoId']
     var target;
     var user;
     $(document).ready(function () {
@@ -188,7 +185,7 @@
 
         $("#theForm").submit(function (e) {
             $.get("http://" + url + "/update?id=" + id + "&status=completed", function (data) {
-                window.location.replace('/agenda.html');
+                window.location =('agenda.html');
             })
             return false
         });
