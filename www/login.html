@@ -12,11 +12,7 @@
 
 
 <body>
-<script src="js/handlebars.js"></script>
-
-
-<script src="/js/socket.io.js"></script>
-
+<script src="js/jquery.js"></script>
 
 <div style="width:100%;height:100%;background:#34495e;">
 
@@ -35,11 +31,19 @@
         <div style="height:50px;width:70%;background:none;font-size:25px;">
             <input type="text" id="username" placeholder="Username"
                    style="background:none;border:none;height:100%;width:100%;font-size:20px;text-align:center;border-bottom:1px solid #2c3e50;">
+            <button>login</button>
         </div>
     </form>
 
 
 </div>
-
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#login").submit(function (e) {
+            e.preventDefault(); //prevent default form submit
+            localStorage['user'] = $('#username')
+            window.location.replace('agenda.html');
+        });})
+</script>
 </body>
 </html>
