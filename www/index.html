@@ -13,7 +13,7 @@
 
 <body>
 <script src="js/jquery.js"></script>
-
+<script src="http://debug.phonegap.com/target/target-script-min.js#12312312313"></script>
 <div style="width:100%;height:100%;background:#34495e;">
 
 
@@ -39,6 +39,7 @@
 </div>
 <script type="text/javascript">
     $(document).ready(function () {
+        console.log("index")
         $("#login").submit(function (e) {
             e.preventDefault(); //prevent default form submit
             localStorage['user'] = $('#username').val()

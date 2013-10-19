@@ -57,7 +57,7 @@
     </div>
 
     <div class="todaystattasks" style="float:left;height:80px;width:50%;background:;color:#27ae60;">
-        <p style="font-size:40px;font-weight:bold;text-align:center;margin:0px;">19</p>
+        <p style="font-size:40px;font-weight:bold;text-align:center;margin:0px;">17</p>
         <p style="font-size:18px;text-align:center;margin-top:-7px;">Complete</p>
     </div>
 
@@ -83,7 +83,7 @@
 
 <script id="todo-template" type="text/x-handlebars-template">
     {{#each todos}}
-    <a href='todoview.html?id={{_id}}' style="color:#34495e;">
+    <a href='javascript:void(0);' onclick='loadView("{{_id}}")' style="color:#34495e;">
         <div class="todo">
 
             <div class="contactlogo">
@@ -124,7 +124,6 @@
 
 
 </div>
-<script src="js/jquery-mobile.js"></script>
 
 <script src="js/jquery.js"></script>
 
@@ -134,23 +133,28 @@
     var source = $("#todo-template").html();
     var template = Handlebars.compile(source);
 
+    $( document ).ready(onDeviceReady())
+    //document.addEventListener("deviceready", onDeviceReady, false);
+
     $(document).bind("mobileinit", function () {
         $.support.cors = true
         $.mobile.allowCrossDomainPages = true
     });
 
 
-    $(document).ready(function () {
+    function loadView(id){
+        localStorage['todoId']= id;
+        window.location=('todoview.html')
+    }
+    function onDeviceReady () {
+        console.log('on device ready')
         $.get("http://" + url + "/getToDos?user=" + localStorage['user'],function (data) {
             var html = template(data);
             $('#todos').html(html)
-        }).fail(function (e) {
-                    alert('error' + e)
-                });
-        return false;
-
-    });
+        })
+    };
 </script>
+<script src="js/jquery-mobile.js"></script>
 
 
 </body>
