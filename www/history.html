@@ -7,15 +7,29 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>History</title>
 </head>
+
+
+
+<div data-role="panel" id="settings">
+        <!-- panel content goes here -->
+</div><!-- /panel -->
+
+
 <script src="js/handlebars.js"></script>
 
 
 <div class="topnav" style="position:fixed;top:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.96;">
 
 
-	<div style="position:fixed;top:10px;left:10px;height:30px;width:40px;background:#;">
+	<a href="#settings" style="position:fixed;top:10px;left:10px;height:30px;width:40px;background:#;">
 	<i class="icon-ellipsis-vertical"></i>
-	</div>
+	</a>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+     $( "#settings" ).panel( "open" , optionsHash );
+    })
+    </script>
 
 
     <div style="margin:0px auto;width:210px;height:30px;margin-top:10px;border-radius:5px;">
