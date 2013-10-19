@@ -1,82 +1,104 @@
 <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-        <title>Todo View</title>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>Todo View</title>
 </head>
 
+<script src="js/handlebars.js"></script>
+
+
+<script src="/js/socket.io.js"></script>
+<script>
+    var port = ''
+    var url = "pleaseyoudoit.herokuapp.com"
+    var user = 'Tariq'
+    var target = 'Sam'
+  // var url = "localhost:3000", port = ':3000'
 
 
 
+    Handlebars.registerHelper('logo', function (name) {
+        return name.substring(0, 2);
+    });
+</script>
 
-	<div class="todo" style="position:fixed;top:0;left:0;background:#2c3e50;color:#ecf0f1;opacity:0.96;border:0;">
+<script id="them-template" type="text/x-handlebars-template">
+    <div class="todo" style="background:#ecf0f1;border-bottom:1px solid #e0e0e0;">
 
-		<a href="contactview.html" style="text-decoration:none;">
-		<div class="contactlogo">
-			<p>Sa<p/>
-		</div>
-		</a>
+        <div class="todotitle">
+            <p style="font-weight:normal;margin-left:2px;">{{message}}</p>
+        </div>
+        <div class="contactlogo" style="background:#8e44ad;float:right;">
+            <p>{{logo user}}
 
-		<div class="todotitle">
-			<p>Buy the milk for our breakfast boy</p>
-		</div>
-		<div class="todoowner">
-			<p>Sam Atkinson</p>
-		</div>
-		<div class="tododate">
-			<p class="time">09:30</p>
-			<p class="day">18</p>
-			<p class="month">Oct</p>
-		</div>
+            <p/>
+        </div>
 
-	</div>
+    </div>
+</script>
 
+<script id="us-template" type="text/x-handlebars-template">
+    <div class="todo" style="margin-bottom:0px;background:#ecf0f1;">
+
+        <div class="contactlogo">
+            <p>{{logo user}}
+            <p/>
+        </div>
+        <div class="todotitle">
+            <p style="font-weight:normal;">{{message}}</p>
+        </div>
+
+    </div>
+</script>
+
+<div class="todo" style="position:fixed;top:0;left:0;background:#2c3e50;color:#ecf0f1;opacity:0.96;border:0;">
+
+    <a href="contactview.html" style="text-decoration:none;">
+        <div class="contactlogo">
+            <p>Sa
+
+            <p/>
+        </div>
+    </a>
+
+    <div class="todotitle">
+        <p>Buy the milk for our breakfast boy</p>
+    </div>
+    <div class="todoowner">
+        <p>Sam Atkinson</p>
+    </div>
+    <div class="tododate">
+        <p class="time">09:30</p>
+
+        <p class="day">18</p>
+
+        <p class="month">Oct</p>
+    </div>
+
+</div>
 
 
 <div style="margin-top:100%;">
 
-
-	<div class="todo" style="margin-top:80px;background:#ecf0f1;border-bottom:1px solid #e0e0e0;">
-
-		<div class="todotitle">
-			<p style="font-weight:normal;margin-left:2px;">Which type of milk?</p>
-		</div>
-		<div class="contactlogo" style="background:#8e44ad;float:right;">
-			<p>Ta<p/>
-		</div>
-
-	</div>
-
-
-	<div class="todo" style="margin-bottom:0px;background:#ecf0f1;">
-
-		<div class="contactlogo">
-			<p>Sa<p/>
-		</div>
-		<div class="todotitle">
-			<p style="font-weight:normal;">Semi skimmed</p>
-		</div>
-
-	</div>
-
+<div id="messages"/>
 
 
 </div>
 
 
-
-
 <div style="position:fixed;bottom:0;left:0;background:#e0e0e0;width:100%;height:50px;opacity:0.9;">
 
-	<form id="theFormConversation">
+	<form id="sendMessage">
         <div style="float:left;height:50px;width:70%;background:white;font-size:15px;">
             <input type="text" id="conversation" placeholder="Ask question..."
                    style="background:none;border:none;height:100%;width:100%;font-size:15px;margin-left:10px;">
         </div>
 
-    <button type="submit" style="float:left;height:50px;width:15%;margin:0px;background:#34495e;border:none;">
+    <button id="submitMessage" type="submit" style="float:left;height:50px;width:15%;margin:0px;background:#34495e;border:none;">
         <i style="color:white;" class="icon-play"></i>
     </button>
     </form>
@@ -89,4 +111,58 @@
 
 
 
+    <button style="float:left;height:50px;width:15%;margin:0px;background:#27ae60;">
+        <i style="color:#ecf0f1;" class="icon-ok"></i>
+    </button>
+
 </div>
+
+<script src="js/jquery.js"></script>
+
+<script type="text/javascript">
+    var themSource = $("#them-template").html();
+    var themTemplate = Handlebars.compile(themSource);
+    var ussource = $("#us-template").html();
+    var usTemplate = Handlebars.compile(ussource);
+
+    $(document).bind("mobileinit", function () {
+        $.support.cors = true
+        $.mobile.allowCrossDomainPages = true
+    });
+
+    $(document).ready(function () {
+     //   $.get("http://" + url + port + "/port",function (port) {
+            var socket = io.connect(url + ":80");
+            socket.emit("join", {user:user, target:target})
+
+            socket.on('message', function(data){
+                var html = themTemplate(data)
+                $('#messages').append(html)
+            })
+            $("#sendMessage").submit(function (e) {
+                var data = {user:user, target:target, message:$('#conversation').val()}
+                socket.emit("message", data)
+                $('#conversation').val('')
+
+                var html = usTemplate(data)
+                $('#messages').append(html)
+                return false
+            });
+   //     })
+
+
+    });
+
+
+   // $(document).ready(function () {
+       /* $.get("http://" + url + "/getToDos?user=Sam",function (data) {
+
+            var html = template(data);
+            $('#todos').html(html)
+        }).fail(function (e) {
+                    alert('error' + e)
+                });
+        return false;*/
+
+  //  });
+</script>
