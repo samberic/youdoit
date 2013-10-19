@@ -64,7 +64,6 @@
             e.preventDefault(); //prevent default form submit
             $.get("http://"+ url +"/newToDo?from=Tariq&target=Sam&todo=" + $('#todo').val(),function (data) {
                 $(".result").html(data);
-                alert("Load was performed.");
             }).fail(function (e) {
                         alert('error' + e)
                     });
