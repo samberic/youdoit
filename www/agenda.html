@@ -20,22 +20,48 @@
 
     <div style="margin:0px auto;width:210px;height:30px;margin-top:10px;border-radius:5px;">
 
-        <div style="float:left;width:68px;height:30px;background:#34495e;border-bottom-left-radius:5px;border-top-left-radius:5px;border: 1px solid #34495e;">
+        <div style="float:left;width:68px;height:30px;background:#34495e;;border-bottom-left-radius:5px;border-top-left-radius:5px;border: 1px solid #34495e;">
             <i style="color:white;" class="icon-unchecked"></i>
         </div>
 
-        <div style="float:left;width:68px;height:30px;background:;border: 1px solid #bdc3c7;border-right:0;border-left:0;">
+        <div style="float:left;width:68px;height:30px;background:;border: 1px solid #34495e;;border-right:0;border-left:0;">
             <i class="icon-exclamation"></i>
         </div>
 
 
-        <div style="float:left;width:70px;height:30px;background:;border-bottom-right-radius:5px;border-top-right-radius:5px;border: 1px solid #bdc3c7;">
-            <i class="icon-check"></i>
+        <div style="float:left;width:70px;height:30px;background:;border-bottom-right-radius:5px;border-top-right-radius:5px;border: 1px solid #34495e;">
+            <i  class="icon-check"></i>
         </div>
 
     </div>
 
 </div>
+
+
+<div class="stats" style="margin-top:50px;height:200px;width:100%;">
+
+    <div class="todaystat" style="float:left;height:50px;width:50%;background:#34495e;">
+        <p style="font-size:20px;text-align:center;margin:0px;color:white;margin-top:12px;">Today</p>
+    </div>
+
+    <div class="todaystattasks" style="float:left;height:100px;width:50%;background:;color:#27ae60;">
+        <p style="font-size:60px;font-weight:bold;text-align:center;margin:0px;">19</p>
+        <p style="font-size:20px;text-align:center;margin-top:-7px;">Complete</p>
+    </div>
+
+    <div class="todaystatcomplete" style="float:left;height:150px;width:50%;background:;margin-top:-50px;">
+        <p style="font-size:100px;font-weight:bold;text-align:center;margin:0px;">27</p>
+        <p style="font-size:20px;text-align:center;margin-top:-7px;">Tasks</p>
+    </div>
+
+    <div class="todaystatdue" style="float:left;height:100px;width:50%;background:;color:#c0392b;">
+        <p style="font-size:60px;font-weight:bold;text-align:center;margin:0px;">8</p>
+        <p style="font-size:20px;text-align:center;margin-top:-7px;">Due</p>
+    </div>
+
+</div>
+
+
 <script type="text/javascript">
     var data = { todos: [
         {
@@ -91,8 +117,8 @@
 
 <div class="bottomnav" style="position:fixed;bottom:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.9;">
 
-    <div style="float:left;width:33%;height:60px;background:#bdc3c7;">
-        <i class="icon-tasks"></i>
+    <div style="float:left;width:33%;height:60px;background:#34495e;">
+        <i style="color:white;" class="icon-tasks"></i>
     </div>
 
 
@@ -101,9 +127,9 @@
     </a>
 
 
-    <div style="float:left;width:33%;height:60px;">
+    <a style="float:left;width:33%;height:60px;text-decoration:none;color:black;" href="history.html">
         <i class="icon-inbox"></i>
-    </div>
+    </a>
 
 
 </div>
