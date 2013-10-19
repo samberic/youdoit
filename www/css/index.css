@@ -17,14 +17,21 @@
  * under the License.
  */
 
+/* all */
+::-webkit-input-placeholder { color:#fff; }
+::-moz-placeholder { color:#fff; } /* firefox 19+ */
+:-ms-input-placeholder { color:#fff; } /* ie */
+input:-moz-placeholder { color:#fff; }
 
-@font-face{
-font-family:"FontAwesome";
-src:url('../fonts/fontawesome-webfont.eot');
-src:url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-url('../fonts/fontawesome-webfont.woff') format('woff'),    url('../fonts/fontawesome-webfont.ttf') format('truetype'),
-        url('../fonts/fontawesome.svg#fontawesomeregular') format('svg');
-}
+/* individual: webkit */
+#field2::-webkit-input-placeholder { color:#00f; }
+#field3::-webkit-input-placeholder { color:#090; background:lightgreen; text-transform:uppercase; }
+#field4::-webkit-input-placeholder { font-style:italic; text-decoration:overline; letter-spacing:3px; color:#fff; }
+
+/* individual: mozilla */
+#field2::-moz-placeholder { color:#00f; }
+#field3::-moz-placeholder { color:#090; background:lightgreen; text-transform:uppercase; }
+#field4::-moz-placeholder { font-style:italic; text-decoration:overline; letter-spacing:3px; color:#fff; }
 
 
 * {
