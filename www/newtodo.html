@@ -50,7 +50,8 @@
 
 <script src="js/jquery.js"></script>
 <script type="text/javascript">
-
+    //var url = "pleaseyoudoit.herokuapp.com"
+    var url = "localhost:3000"
 
             $(document).bind("mobileinit", function(){
                 $.support.cors = true
@@ -61,7 +62,7 @@
     $(document).ready(function () {
         $("#theForm").submit(function (e) {
             e.preventDefault(); //prevent default form submit
-            $.get("http://pleaseyoudoit.herokuapp.com//newToDo?from=Tariq&target=Sam&todo=" + $('#todo').text(),function (data) {
+            $.get("http://"+ url +"/newToDo?from=Tariq&target=Sam&todo=" + $('#todo').val(),function (data) {
                 $(".result").html(data);
                 alert("Load was performed.");
             }).fail(function (e) {

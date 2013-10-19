@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0e0a15-178a-40c2-8443-9d6ee53f5564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery-mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/newtodo.html" afterPath="$PROJECT_DIR$/www/newtodo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youdoit.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382172347676" ignored="false" />
-    <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382174169595" ignored="false" />
+    <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382176047166" ignored="false" />
     <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173323771" ignored="false" />
     <file path="/config.xml" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173696050" ignored="false" />
-    <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382174845239" ignored="false" />
-    <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382174569152" ignored="false" />
+    <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382175881874" ignored="false" />
+    <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382175871955" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="newtodo.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="newtodo.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/newtodo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="46" selection-start="1764" selection-end="1785" vertical-scroll-proportion="-6.3061223">
+            <state line="64" column="36" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.62184876">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -94,11 +89,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todoview.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todoview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/todoview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="14" selection-start="861" selection-end="861" vertical-scroll-proportion="0.32476318">
-              <folding />
+            <state line="27" column="14" selection-start="943" selection-end="943" vertical-scroll-proportion="2.9583333">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +153,7 @@
         <option value="$PROJECT_DIR$/www/js/jquery.js" />
         <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/js/jquery-mobile.js" />
+        <option value="$PROJECT_DIR$/www/todoview.html" />
         <option value="$PROJECT_DIR$/www/newtodo.html" />
       </list>
     </option>
@@ -475,9 +473,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/todoview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="943" selection-end="943" vertical-scroll-proportion="2.9583333">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/newtodo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="46" selection-start="1764" selection-end="1785" vertical-scroll-proportion="-6.3061223">
+        <state line="64" column="36" selection-start="2065" selection-end="2065" vertical-scroll-proportion="0.62184876">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -486,13 +493,6 @@
             <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/todoview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="14" selection-start="861" selection-end="861" vertical-scroll-proportion="0.32476318">
-          <folding />
         </state>
       </provider>
     </entry>
