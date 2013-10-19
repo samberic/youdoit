@@ -25,7 +25,7 @@
 
     //var user = 'Sam'
     var user = window.localStorage['user'] || 'Tariq'
-    var target = 'Sam'
+    var target = window.localStorage['target'] || 'Sam'
     //var target = 'Tariq'
 
     // var url = "localhost:3000"
@@ -155,7 +155,7 @@
             var html = toDoTemplate(data.todo)
             $('#todo').html(html)
     })
-        $.get("http://" + url + "/chatHistory?user=" + user + "&target=" + target, function (data) {
+        $.get("http://" + url + "/chatHistory?user=" + user + "&target=" + target + "&id=" +id, function (data) {
             for(var i = 0; i < data.messages.length; i++){
                 if(data.messages[i].user == user){
                     var html = usTemplate(data.messages[i])
@@ -174,7 +174,7 @@
                 $('#messages').append(html)
             })
             $("#sendMessage").submit(function (e) {
-                var data = {user:user, target:target, message:$('#conversation').val()}
+                var data = {user:user, target:target, todo:id, message:$('#conversation').val()}
                 socket.emit("message", data)
                 $('#conversation').val('')
 
