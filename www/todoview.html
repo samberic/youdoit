@@ -14,15 +14,22 @@
 <script src="/js/socket.io.js"></script>
 <script>
     var port = ''
+
    var url = "pleaseyoudoit.herokuapp.com"
    var socketurl = "pleaseyoudoit.herokuapp.com:80"
 
+    //var url = "pleaseyoudoit.herokuapp.com";var socketurl = "pleaseyoudoit.herokuapp.com:80"
+    // var url = "localhost:3000"; var socketurl = "http://localhost:3000"
+
+
     //var user = 'Sam'
-    var user = 'Tariq'
+    var user = window.localStorage['user'] || 'Tariq'
     var target = 'Sam'
     //var target = 'Tariq'
-    // var url = "localhost:3000"
-    // var socketurl = "http://localhost:3000"
+
+    var url = "localhost:3000"
+    var socketurl = "http://localhost:3000"
+
 
 
 
