@@ -41,7 +41,7 @@
     $(document).ready(function () {
         $("#login").submit(function (e) {
             e.preventDefault(); //prevent default form submit
-            localStorage['user'] = $('#username')
+            localStorage['user'] = $('#username').val()
             window.location.replace('agenda.html');
         });})
 </script>

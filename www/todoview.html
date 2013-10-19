@@ -26,8 +26,6 @@
 
 
     //var user = 'Sam'
-    var user = window.localStorage['user'] || 'Tariq'
-    var target = window.localStorage['target'] || 'Sam'
     //var target = 'Tariq'
 
     // var url = "localhost:3000"
@@ -151,12 +149,15 @@
     });
 
     var id = $.url().param('id');
-
+    var target;
+    var user;
     $(document).ready(function () {
         $.get("http://" + url + "/getToDo?id=" + id, function (data) {
             var html = toDoTemplate(data.todo)
             $('#todo').html(html)
-    })
+            target = data.todo.target;
+            user = data.todo.user;
+
         $.get("http://" + url + "/chatHistory?user=" + user + "&target=" + target + "&id=" +id, function (data) {
             for(var i = 0; i < data.messages.length; i++){
                 if(data.messages[i].user == user){
@@ -191,7 +192,7 @@
             })
             return false
         });
-    });
+    });})
 
 
    // $(document).ready(function () {

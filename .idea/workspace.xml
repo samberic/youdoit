@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0e0a15-178a-40c2-8443-9d6ee53f5564" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/agenda.html.orig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agenda.html" afterPath="$PROJECT_DIR$/www/agenda.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agendacompleted.html" afterPath="$PROJECT_DIR$/www/agendacompleted.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contacts.html" afterPath="$PROJECT_DIR$/www/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/getwaiting.html" afterPath="$PROJECT_DIR$/www/getwaiting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/history.html" afterPath="$PROJECT_DIR$/www/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/login.html" afterPath="$PROJECT_DIR$/www/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/newtodo.html" afterPath="$PROJECT_DIR$/www/newtodo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todoview.html" afterPath="$PROJECT_DIR$/www/todoview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youdoit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207189103" ignored="false" />
+    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207693801" ignored="false" />
     <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382206447845" ignored="false" />
     <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207292122" ignored="false" />
     <file path="/config.xml" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173696050" ignored="false" />
@@ -26,10 +19,11 @@
     <file path="/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
     <file path="$PROJECT_DIR$/../pleaseyoudoit/public/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
     <file path="$PROJECT_DIR$/www/css/index.css" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382186337241" ignored="false" />
-    <file path="/todoview.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382202504747" ignored="false" />
+    <file path="/todoview.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382208655600" ignored="false" />
     <file path="/history.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382204248803" ignored="false" />
-    <file path="/login.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382204095762" ignored="false" />
+    <file path="/login.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207909038" ignored="false" />
     <file path="/contacts.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382205749746" ignored="false" />
+    <file path="/agendacompleted.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382209104101" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,25 +87,25 @@
       <file leaf-file-name="newtodo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/newtodo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="6" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-6.625">
+            <state line="57" column="6" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-3.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agendacompleted.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="agendacompleted.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="28" selection-start="4328" selection-end="4341" vertical-scroll-proportion="-8.125">
+            <state line="143" column="70" selection-start="4725" selection-end="4725" vertical-scroll-proportion="0.59183675">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todoview.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todoview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/todoview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="993" selection-end="1005" vertical-scroll-proportion="0.5986394">
+            <state line="194" column="9" selection-start="5911" selection-end="5911" vertical-scroll-proportion="-17.755102">
               <folding>
                 <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -155,7 +149,7 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="6" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
+            <state line="43" column="55" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-10.875">
               <folding />
             </state>
           </provider>
@@ -182,7 +176,7 @@
       <file leaf-file-name="agenda.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/agenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="19" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0">
+            <state line="143" column="66" selection-start="4742" selection-end="4742" vertical-scroll-proportion="-8.375">
               <folding />
             </state>
           </provider>
@@ -223,13 +217,13 @@
         <option value="$PROJECT_DIR$/www/js/purl.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/history.html" />
-        <option value="$PROJECT_DIR$/www/login.html" />
         <option value="$PROJECT_DIR$/www/agenda.html" />
         <option value="$PROJECT_DIR$/www/contacts.html" />
         <option value="$PROJECT_DIR$/www/getwaiting.html" />
-        <option value="$PROJECT_DIR$/www/agendacompleted.html" />
         <option value="$PROJECT_DIR$/www/newtodo.html" />
+        <option value="$PROJECT_DIR$/www/login.html" />
         <option value="$PROJECT_DIR$/www/todoview.html" />
+        <option value="$PROJECT_DIR$/www/agendacompleted.html" />
       </list>
     </option>
   </component>
@@ -467,7 +461,11 @@
       <created>1382203497849</created>
       <updated>1382203497855</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Real users! Real app! oh my">
+      <created>1382207701927</created>
+      <updated>1382207701927</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -486,18 +484,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.681701" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.681701" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -543,7 +541,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filtering based on done.  Ability to tick to-dos off." />
+    <option name="LAST_COMMIT_MESSAGE" value="Real users! Real app! oh my" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -562,6 +560,7 @@
     <MESSAGE value="linking to individual to do now works" />
     <MESSAGE value="Chats now indexed properly" />
     <MESSAGE value="Filtering based on done.  Ability to tick to-dos off." />
+    <MESSAGE value="Real users! Real app! oh my" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -627,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="6" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="0" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
@@ -648,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/agenda.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="19" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/getwaiting.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="44" selection-start="4709" selection-end="4709" vertical-scroll-proportion="-15.625">
@@ -662,23 +647,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
+    <entry file="file://$PROJECT_DIR$/www/agenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="28" selection-start="4328" selection-end="4341" vertical-scroll-proportion="-8.125">
+        <state line="143" column="66" selection-start="4742" selection-end="4742" vertical-scroll-proportion="-8.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="55" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-10.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/newtodo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="6" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-6.625">
+        <state line="57" column="6" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-3.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/todoview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="26" selection-start="993" selection-end="1005" vertical-scroll-proportion="0.5986394">
+        <state line="194" column="9" selection-start="5911" selection-end="5911" vertical-scroll-proportion="-17.755102">
           <folding>
             <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -697,6 +689,13 @@
             <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="70" selection-start="4725" selection-end="4725" vertical-scroll-proportion="0.59183675">
+          <folding />
         </state>
       </provider>
     </entry>
