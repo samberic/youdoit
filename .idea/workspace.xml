@@ -3,21 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5e0e0a15-178a-40c2-8443-9d6ee53f5564" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agenda.html" afterPath="$PROJECT_DIR$/www/agenda.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contacts.html" afterPath="$PROJECT_DIR$/www/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/newtodo.html" afterPath="$PROJECT_DIR$/www/newtodo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todoview.html" afterPath="$PROJECT_DIR$/www/todoview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youdoit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382172347676" ignored="false" />
+    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382181050102" ignored="false" />
     <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382176047166" ignored="false" />
-    <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173323771" ignored="false" />
+    <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382185720959" ignored="false" />
     <file path="/config.xml" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173696050" ignored="false" />
-    <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382177969522" ignored="false" />
-    <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382175871955" ignored="false" />
+    <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382184013953" ignored="false" />
+    <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183995348" ignored="false" />
     <file path="/agenda.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382177733236" ignored="false" />
+    <file path="/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
+    <file path="$PROJECT_DIR$/../pleaseyoudoit/public/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
+    <file path="$PROJECT_DIR$/www/css/index.css" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382186337241" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +80,8 @@
       <file leaf-file-name="newtodo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/newtodo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-9.67347">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,10 +89,8 @@
       <file leaf-file-name="todoview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/todoview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="14" selection-start="839" selection-end="839" vertical-scroll-proportion="2.9583333">
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="26" column="14" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +107,32 @@
       <file leaf-file-name="agenda.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/agenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="6" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.025710419">
+            <state line="34" column="0" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.32476318">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#script#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="30" selection-start="3494" selection-end="3494" vertical-scroll-proportion="-75.0">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -151,7 +167,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="11170" column="18" selection-start="488027" selection-end="488027" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <marker date="1382174067000" expanded="false" signature="370109:370123" placeholder="..." />
               </folding>
             </state>
@@ -162,9 +177,7 @@
         <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8782" column="27" selection-start="335274" selection-end="335274" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,6 +206,7 @@
         <option value="$PROJECT_DIR$/www/todoview.html" />
         <option value="$PROJECT_DIR$/www/js/handlebars.js" />
         <option value="$PROJECT_DIR$/www/newtodo.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/agenda.html" />
       </list>
     </option>
@@ -227,6 +241,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,10 +279,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,14 +286,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="options.lastSelected" value="settings.nodejs" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -294,19 +308,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -337,6 +338,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -350,13 +364,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -378,6 +385,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -507,12 +521,54 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
+    <entry file="file://$PROJECT_DIR$/www/newtodo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8782" column="27" selection-start="335274" selection-end="335274" vertical-scroll-proportion="0.0">
+        <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/todoview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="37" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/agenda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#script#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2233" column="0" selection-start="89566" selection-end="89566" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +576,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11170" column="18" selection-start="488027" selection-end="488027" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1382174067000" expanded="false" signature="370109:370123" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8782" column="27" selection-start="335274" selection-end="335274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8782" column="27" selection-start="335274" selection-end="335274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery-mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11170" column="18" selection-start="488027" selection-end="488027" vertical-scroll-proportion="0.0">
+          <folding>
             <marker date="1382174067000" expanded="false" signature="370109:370123" placeholder="..." />
           </folding>
         </state>
@@ -528,10 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/todoview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="839" selection-end="839" vertical-scroll-proportion="2.9583333">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="26" column="14" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,25 +627,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/newtodo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-9.67347">
+        <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="30" selection-start="3494" selection-end="3494" vertical-scroll-proportion="-75.0">
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#script#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/agenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.025710419">
+        <state line="34" column="0" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.32476318">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#script#2;n#!!top" expanded="true" />
