@@ -2,24 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0e0a15-178a-40c2-8443-9d6ee53f5564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agendacompleted.html" afterPath="$PROJECT_DIR$/www/agendacompleted.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/login.html" afterPath="$PROJECT_DIR$/www/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/login.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/newtodo.html" afterPath="$PROJECT_DIR$/www/newtodo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todoview.html" afterPath="$PROJECT_DIR$/www/todoview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youdoit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207693801" ignored="false" />
-    <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382206447845" ignored="false" />
-    <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207292122" ignored="false" />
+    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382213110645" ignored="false" />
+    <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382211446725" ignored="false" />
+    <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382211657022" ignored="false" />
     <file path="/config.xml" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173696050" ignored="false" />
     <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207604185" ignored="false" />
     <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207471718" ignored="false" />
     <file path="/agenda.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382204224850" ignored="false" />
     <file path="/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
     <file path="$PROJECT_DIR$/../pleaseyoudoit/public/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
-    <file path="$PROJECT_DIR$/www/css/index.css" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382186337241" ignored="false" />
-    <file path="/todoview.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382208655600" ignored="false" />
+    <file path="/todoview.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382210937254" ignored="false" />
     <file path="/history.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382204248803" ignored="false" />
     <file path="/login.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207909038" ignored="false" />
     <file path="/contacts.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382205749746" ignored="false" />
@@ -87,16 +87,20 @@
       <file leaf-file-name="newtodo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/newtodo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="6" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-3.5">
-              <folding />
+            <state line="77" column="32" selection-start="2752" selection-end="2752" vertical-scroll-proportion="-17.416666">
+              <folding>
+                <marker date="1382213017000" expanded="true" signature="2311:2830" placeholder="{...}" />
+                <marker date="1382213017000" expanded="true" signature="2472:2796" placeholder="{...}" />
+                <marker date="1382213017000" expanded="true" signature="2672:2784" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agendacompleted.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="agendacompleted.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="70" selection-start="4725" selection-end="4725" vertical-scroll-proportion="0.59183675">
+            <state line="143" column="70" selection-start="4688" selection-end="4688" vertical-scroll-proportion="-10.875">
               <folding />
             </state>
           </provider>
@@ -105,7 +109,7 @@
       <file leaf-file-name="todoview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/todoview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="9" selection-start="5911" selection-end="5911" vertical-scroll-proportion="-17.755102">
+            <state line="187" column="33" selection-start="5760" selection-end="5760" vertical-scroll-proportion="-4.9591837">
               <folding>
                 <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -131,7 +135,16 @@
       <file leaf-file-name="getwaiting.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/getwaiting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="44" selection-start="4709" selection-end="4709" vertical-scroll-proportion="-15.625">
+            <state line="143" column="44" selection-start="4672" selection-end="4672" vertical-scroll-proportion="-15.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="21" selection-start="3690" selection-end="3690" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,16 +153,16 @@
       <file leaf-file-name="contacts.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/contacts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="36" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0">
+            <state line="38" column="36" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/login.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="55" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-10.875">
+            <state line="49" column="0" selection-start="1690" selection-end="1690" vertical-scroll-proportion="1.3560091">
               <folding />
             </state>
           </provider>
@@ -164,28 +177,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/purl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="267" column="0" selection-start="8838" selection-end="8838" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="agenda.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/agenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="66" selection-start="4742" selection-end="4742" vertical-scroll-proportion="-8.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="31" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.0">
+            <state line="143" column="66" selection-start="4704" selection-end="4704" vertical-scroll-proportion="-8.375">
               <folding />
             </state>
           </provider>
@@ -210,20 +205,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/www/js/jquery.js" />
-        <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/js/jquery-mobile.js" />
         <option value="$PROJECT_DIR$/www/js/handlebars.js" />
         <option value="$PROJECT_DIR$/www/js/socket.io.js" />
         <option value="$PROJECT_DIR$/www/js/purl.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/history.html" />
         <option value="$PROJECT_DIR$/www/agenda.html" />
         <option value="$PROJECT_DIR$/www/contacts.html" />
         <option value="$PROJECT_DIR$/www/getwaiting.html" />
-        <option value="$PROJECT_DIR$/www/newtodo.html" />
         <option value="$PROJECT_DIR$/www/login.html" />
-        <option value="$PROJECT_DIR$/www/todoview.html" />
         <option value="$PROJECT_DIR$/www/agendacompleted.html" />
+        <option value="$PROJECT_DIR$/www/config.xml" />
+        <option value="$PROJECT_DIR$/www/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/www/newtodo.html" />
+        <option value="$PROJECT_DIR$/www/todoview.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -294,6 +290,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youdoit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -311,6 +321,131 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/.DS_Store</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/agenda.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/agendacompleted.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/contacts.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/contactview.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/getwaiting.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/newtodo.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/todoview.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.DS_Store</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/background.jpg</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/background.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/css/.DS_Store</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/css/font-awesome.css</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -465,17 +600,21 @@
       <created>1382207701927</created>
       <updated>1382207701927</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Flow fixes">
+      <created>1382209168632</created>
+      <updated>1382209168632</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31829897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31829897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -483,8 +622,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277635" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273196" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -541,7 +680,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Real users! Real app! oh my" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots of tweaks as we try to get it o nthe phones" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -561,6 +700,8 @@
     <MESSAGE value="Chats now indexed properly" />
     <MESSAGE value="Filtering based on done.  Ability to tick to-dos off." />
     <MESSAGE value="Real users! Real app! oh my" />
+    <MESSAGE value="Flow fixes" />
+    <MESSAGE value="lots of tweaks as we try to get it o nthe phones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -591,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="37" selection-start="3706" selection-end="3706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/handlebars.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2233" column="0" selection-start="89566" selection-end="89566" vertical-scroll-proportion="0.0">
@@ -619,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="31" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/history.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="123" column="0" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
@@ -635,42 +762,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0">
+        <state line="38" column="36" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/getwaiting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="44" selection-start="4709" selection-end="4709" vertical-scroll-proportion="-15.625">
+        <state line="143" column="44" selection-start="4672" selection-end="4672" vertical-scroll-proportion="-15.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/agenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="66" selection-start="4742" selection-end="4742" vertical-scroll-proportion="-8.375">
+        <state line="143" column="66" selection-start="4704" selection-end="4704" vertical-scroll-proportion="-8.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/login.html">
+    <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="55" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-10.875">
+        <state line="143" column="70" selection-start="4688" selection-end="4688" vertical-scroll-proportion="-10.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="21" selection-start="3690" selection-end="3690" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1463" column="1" selection-start="28081" selection-end="28081" vertical-scroll-proportion="0.44731182">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/newtodo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="6" selection-start="1863" selection-end="1863" vertical-scroll-proportion="-3.5">
-          <folding />
+        <state line="77" column="32" selection-start="2752" selection-end="2752" vertical-scroll-proportion="-17.416666">
+          <folding>
+            <marker date="1382213017000" expanded="true" signature="2311:2830" placeholder="{...}" />
+            <marker date="1382213017000" expanded="true" signature="2472:2796" placeholder="{...}" />
+            <marker date="1382213017000" expanded="true" signature="2672:2784" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/todoview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="9" selection-start="5911" selection-end="5911" vertical-scroll-proportion="-17.755102">
+        <state line="187" column="33" selection-start="5760" selection-end="5760" vertical-scroll-proportion="-4.9591837">
           <folding>
             <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -692,9 +837,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="70" selection-start="4725" selection-end="4725" vertical-scroll-proportion="0.59183675">
+        <state line="49" column="0" selection-start="1690" selection-end="1690" vertical-scroll-proportion="1.3560091">
           <folding />
         </state>
       </provider>
