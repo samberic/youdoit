@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0e0a15-178a-40c2-8443-9d6ee53f5564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/handlebars.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agenda.html" afterPath="$PROJECT_DIR$/www/agenda.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contacts.html" afterPath="$PROJECT_DIR$/www/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/newtodo.html" afterPath="$PROJECT_DIR$/www/newtodo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todoview.html" afterPath="$PROJECT_DIR$/www/todoview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youdoit.iws" />
@@ -79,14 +81,13 @@
       <file leaf-file-name="newtodo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/newtodo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="33" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-9.67347">
+            <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-9.67347">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +96,7 @@
       <file leaf-file-name="todoview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/todoview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="14" selection-start="943" selection-end="943" vertical-scroll-proportion="2.9583333">
+            <state line="26" column="14" selection-start="839" selection-end="839" vertical-scroll-proportion="2.9583333">
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -115,7 +116,7 @@
       <file leaf-file-name="agenda.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/agenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="6" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.4925575">
+            <state line="36" column="6" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.025710419">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -527,7 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/todoview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="943" selection-end="943" vertical-scroll-proportion="2.9583333">
+        <state line="26" column="14" selection-start="839" selection-end="839" vertical-scroll-proportion="2.9583333">
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -550,21 +551,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/newtodo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="33" selection-start="2213" selection-end="2213" vertical-scroll-proportion="-9.67347">
+        <state line="68" column="33" selection-start="2177" selection-end="2177" vertical-scroll-proportion="-9.67347">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/agenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="6" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.4925575">
+        <state line="36" column="6" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.025710419">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
