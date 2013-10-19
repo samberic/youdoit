@@ -80,12 +80,11 @@
 
 <script id="todo-template" type="text/x-handlebars-template">
     {{#each todos}}
-    <a href="todoview.html" style="text-decoration:none;color:#34495e;">
+    <a href="todoview.html?id={{_id}}" style="text-decoration:none;color:#34495e;">
         <div class="todo">
 
             <div class="contactlogo">
                 <p>{{{logo from}}}
-
                 <p/>
             </div>
             <div class="todotitle">
@@ -143,7 +142,6 @@
 
     $(document).ready(function () {
         $.get("http://" + url + "/getToDos?user=Sam",function (data) {
-
             var html = template(data);
             $('#todos').html(html)
         }).fail(function (e) {

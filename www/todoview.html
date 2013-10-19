@@ -8,6 +8,7 @@
     <title>Todo View</title>
 </head>
 
+
 <script src="js/handlebars.js"></script>
 
 
@@ -52,6 +53,30 @@
 
     </div>
 </script>
+<script id="todo-template" type="text/x-handlebars-template">
+
+    <a href="contactview.html" style="text-decoration:none;">
+        <div class="contactlogo">
+            <p>{{logo from}}
+            <p/>
+        </div>
+    </a>
+
+    <div class="todotitle">
+        <p>{{todo}}</p>
+    </div>
+    <div class="todoowner">
+        <p>{{user}}</p>
+    </div>
+    <div class="tododate">
+        <p class="time">09:30</p>
+
+        <p class="day">18</p>
+
+        <p class="month">Oct</p>
+    </div>
+
+</script>
 
 <script id="us-template" type="text/x-handlebars-template">
     <div class="todo" style="margin-bottom:0px;background:#ecf0f1;">
@@ -67,29 +92,7 @@
     </div>
 </script>
 
-<div class="todo" style="position:fixed;top:0;left:0;background:#2c3e50;color:#ecf0f1;opacity:0.96;border:0;">
-
-    <a href="contactview.html" style="text-decoration:none;">
-        <div class="contactlogo">
-            <p>Sa
-
-            <p/>
-        </div>
-    </a>
-
-    <div class="todotitle">
-        <p>Buy the milk for our breakfast boy</p>
-    </div>
-    <div class="todoowner">
-        <p>Sam Atkinson</p>
-    </div>
-    <div class="tododate">
-        <p class="time">09:30</p>
-
-        <p class="day">18</p>
-
-        <p class="month">Oct</p>
-    </div>
+<div id="todo" class="todo" style="position:fixed;top:0;left:0;background:#2c3e50;color:#ecf0f1;opacity:0.96;border:0;">
 
 </div>
 
@@ -130,18 +133,28 @@
 
 <script src="js/jquery.js"></script>
 
+<script src="js/purl.js"></script>
 <script type="text/javascript">
     var themSource = $("#them-template").html();
     var themTemplate = Handlebars.compile(themSource);
     var ussource = $("#us-template").html();
     var usTemplate = Handlebars.compile(ussource);
+    var toDoSource = $("#todo-template").html();
+    var toDoTemplate = Handlebars.compile(toDoSource);
+
 
     $(document).bind("mobileinit", function () {
         $.support.cors = true
         $.mobile.allowCrossDomainPages = true
     });
 
+    var id = $.url().param('id');
+
     $(document).ready(function () {
+        $.get("http://" + url + "/getToDo?id=" + id, function (data) {
+            var html = toDoTemplate(data.todo)
+            $('#todo').html(html)
+    })
         $.get("http://" + url + "/chatHistory?user=" + user + "&target=" + target, function (data) {
             for(var i = 0; i < data.messages.length; i++){
                 if(data.messages[i].user == user){
@@ -169,6 +182,13 @@
                 $('#messages').append(html)
                 return false
             });
+
+        $("#theForm").submit(function (e) {
+            $.get("http://" + url + "/update?_id=" + id + "&status=completed", function (data) {
+
+            })
+            return false
+        });
    //     })
 
 
