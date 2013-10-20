@@ -86,7 +86,7 @@
 
 <script id="todo-template" type="text/x-handlebars-template">
     {{#each todos}}
-    <div class="img_slides_wrap slides_wrap wrap" id="test">
+    <div class="img_slides_wrap slides_wrap wrap">
         <div class="img_slide slide" id="slide1"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
 
         <a href='javascript:void(0);' onclick='loadView("{{_id}}")' class="img_slide slide active" id="{{_id}}" style="color:#34495e;">
@@ -139,7 +139,6 @@
                     active = slides.filter('.active'),
                     i = slides.index(active),
                     width = wrap.width();
-                    var element = document.getElementById('test');
 
                 // Listen for swipe events on slides, and use a custom 'activate'
                 // event to add and remove the class 'active' to the previous
@@ -164,7 +163,7 @@
 
                     jQuery(e.target).addClass('active');
 
-                    $( "#test" ).fadeOut( "slow", function() {
+                            jQuery(e.target).parent().fadeOut( "slow", function() {
                     });
 
                     // Update the active slide index
