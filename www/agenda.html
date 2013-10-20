@@ -4,6 +4,7 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
 
@@ -22,7 +23,7 @@
 <script src="js/handlebars.js"></script>
 
 
-<div class="topnav" style="position:fixed;top:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.9;">
+<div class="topnav" style="z-index:1000;position:fixed;top:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.9;">
 
 
 	<a href="#settings" style="position:fixed;top:10px;left:10px;height:30px;width:40px;text-decoration:none;">
@@ -51,7 +52,7 @@
 
 
 <div class="stats" style="margin-top:50px;height:165px;width:100%;">
-<img src="blur2.jpg" style="z-index:-10;width:100%;height:100%;margin-top:0px;opacity:0.65;"/>
+<img src="blur2.jpg" style="z-index:-100;width:100%;height:100%;margin-top:0px;opacity:0.65;"/>
 
     <div class="todaystatcomplete" style="float:left;height:120px;width:100%;background:;margin-top:-160px;">
         <p id="todo" style="font-size:100px;font-weight:lighter;text-align:center;margin:0px;"></p>
