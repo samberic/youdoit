@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0e0a15-178a-40c2-8443-9d6ee53f5564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agenda.html" afterPath="$PROJECT_DIR$/www/agenda.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/agendacompleted.html" afterPath="$PROJECT_DIR$/www/agendacompleted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/jquery.event.move.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/contacts.html" afterPath="$PROJECT_DIR$/www/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/getwaiting.html" afterPath="$PROJECT_DIR$/www/getwaiting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery-mobile.js" afterPath="$PROJECT_DIR$/www/js/jquery-mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/jquery.js" afterPath="$PROJECT_DIR$/www/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/todoview.html" afterPath="$PROJECT_DIR$/www/todoview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youdoit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382216792968" ignored="false" />
+    <file path="/Dummy.txt" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382222294556" ignored="false" />
     <file path="/newtodo.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382211446725" ignored="false" />
-    <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382211657022" ignored="false" />
+    <file path="/a.dummy" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382234931787" ignored="false" />
     <file path="/config.xml" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382173696050" ignored="false" />
-    <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382222010212" ignored="false" />
-    <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382221044615" ignored="false" />
+    <file path="$PROJECT_DIR$/../pleaseyoudoit/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382229856307" ignored="false" />
+    <file path="/app.js" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382229854533" ignored="false" />
     <file path="/agenda.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382222143541" ignored="false" />
     <file path="/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382215467206" ignored="false" />
     <file path="$PROJECT_DIR$/../pleaseyoudoit/public/index.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382183665450" ignored="false" />
     <file path="/todoview.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382215860149" ignored="false" />
     <file path="/history.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382204248803" ignored="false" />
     <file path="/login.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382207909038" ignored="false" />
-    <file path="/contacts.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382205749746" ignored="false" />
+    <file path="/contacts.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382230053901" ignored="false" />
     <file path="/agendacompleted.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382221421915" ignored="false" />
-    <file path="/getwaiting.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382221441950" ignored="false" />
+    <file path="/getwaiting.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382235079004" ignored="false" />
+    <file path="/propercontacts.html" changelist="5e0e0a15-178a-40c2-8443-9d6ee53f5564" time="1382226908352" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,66 +85,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jquery-mobile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/jquery-mobile.js">
+      <file leaf-file-name="newtodo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/newtodo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="116001" selection-start="116160" selection-end="116160" vertical-scroll-proportion="-0.6">
+            <state line="59" column="16" selection-start="2016" selection-end="2018" vertical-scroll-proportion="-18.061224">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agendacompleted.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/agendacompleted.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="10" selection-start="4200" selection-end="4200" vertical-scroll-proportion="-3.6122448">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getwaiting.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="getwaiting.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/getwaiting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="10" selection-start="4196" selection-end="4196" vertical-scroll-proportion="-6.367347">
+            <state line="161" column="0" selection-start="5790" selection-end="5790" vertical-scroll-proportion="-1.9476082">
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="93113" selection-end="93113" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,7 +129,7 @@
       <file leaf-file-name="todoview.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/todoview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="36" selection-start="3786" selection-end="3830" vertical-scroll-proportion="-0.625">
+            <state line="189" column="80" selection-start="5900" selection-end="5964" vertical-scroll-proportion="-6.0408163">
               <folding>
                 <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -174,28 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/purl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="267" column="0" selection-start="8838" selection-end="8838" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socket.io.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/socket.io.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3238" column="41" selection-start="107339" selection-end="107339" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agenda.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="agenda.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/agenda.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="0" selection-start="3753" selection-end="3753" vertical-scroll-proportion="0.29840547">
+            <state line="73" column="64" selection-start="2422" selection-end="2479" vertical-scroll-proportion="-2.9183674">
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -236,11 +192,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/js/handlebars.js" />
-        <option value="$PROJECT_DIR$/www/js/socket.io.js" />
         <option value="$PROJECT_DIR$/www/js/purl.js" />
         <option value="$PROJECT_DIR$/www/history.html" />
-        <option value="$PROJECT_DIR$/www/contacts.html" />
         <option value="$PROJECT_DIR$/www/login.html" />
         <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/css/font-awesome.css" />
@@ -250,8 +203,11 @@
         <option value="$PROJECT_DIR$/www/js/jquery.js" />
         <option value="$PROJECT_DIR$/www/todoview.html" />
         <option value="$PROJECT_DIR$/www/agendacompleted.html" />
-        <option value="$PROJECT_DIR$/www/getwaiting.html" />
+        <option value="$PROJECT_DIR$/www/propercontacts.html" />
         <option value="$PROJECT_DIR$/www/agenda.html" />
+        <option value="$PROJECT_DIR$/www/contacts.html" />
+        <option value="$PROJECT_DIR$/www/js/jquery.event.move.js" />
+        <option value="$PROJECT_DIR$/www/getwaiting.html" />
       </list>
     </option>
   </component>
@@ -371,6 +327,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www" />
+    </key>
+  </component>
   <component name="RestoreUpdateTree">
     <UpdateInfo date="Moments ago" ActionInfo="_Update">
       <UpdatedFiles>
@@ -388,10 +349,9 @@
             <option name="myId" value="UPDATED" />
             <PATH vcs="Git" revision="">$PROJECT_DIR$/.DS_Store</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/www/.DS_Store</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/agenda.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/agendacompleted.html</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/www/css/index.css</PATH>
             <PATH vcs="Git" revision="">$PROJECT_DIR$/www/getwaiting.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/js/.DS_Store</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Created" />
@@ -399,9 +359,8 @@
             <option name="mySupportsDeletion" value="false" />
             <option name="myCanBeAbsent" value="false" />
             <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/blur.jpg</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/blur2.jpg</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/css/slide.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/www/js/jquery.event.swipe.js</PATH>
           </FILE-GROUP>
           <FILE-GROUP>
             <option name="myUpdateName" value="Deleted" />
@@ -660,7 +619,11 @@
       <created>1382216798364</created>
       <updated>1382216798364</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="its so pretty now">
+      <created>1382222299185</created>
+      <updated>1382222299185</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -676,7 +639,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.28737113" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273196" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860824" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -736,7 +699,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="KILLING LOGIN.HTML&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="its so pretty now" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -760,6 +723,7 @@
     <MESSAGE value="lots of tweaks as we try to get it o nthe phones" />
     <MESSAGE value="Fix the icons tariq!" />
     <MESSAGE value="KILLING LOGIN.HTML&#10;" />
+    <MESSAGE value="its so pretty now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -769,40 +733,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/js/handlebars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2233" column="0" selection-start="89566" selection-end="89566" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="4384" selection-end="4384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="36" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.032822758">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="60" selection-start="99" selection-end="99" vertical-scroll-proportion="0.031914894">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/newtodo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="32" selection-start="2752" selection-end="2752" vertical-scroll-proportion="-9.291667">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="93113" selection-end="93113" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="93113" selection-end="93113" vertical-scroll-proportion="0.18442623">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -840,35 +774,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/purl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="0" selection-start="8838" selection-end="8838" vertical-scroll-proportion="0.0">
+        <state line="267" column="0" selection-start="8838" selection-end="8838" vertical-scroll-proportion="8.053279">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/socket.io.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3238" column="41" selection-start="107339" selection-end="107339" vertical-scroll-proportion="0.0">
+        <state line="3238" column="41" selection-start="107339" selection-end="107339" vertical-scroll-proportion="0.52459013">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/todoview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="36" selection-start="3786" selection-end="3830" vertical-scroll-proportion="-0.625">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,28 +806,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/getwaiting.html">
+    <entry file="file://$PROJECT_DIR$/www/contactview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="10" selection-start="4196" selection-end="4196" vertical-scroll-proportion="-6.367347">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.event.swipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="72" selection-end="82" vertical-scroll-proportion="0.10660981">
           <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/jquery.event.move.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="580" column="0" selection-start="17308" selection-end="17308" vertical-scroll-proportion="0.9392713">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="24" selection-start="760" selection-end="760" vertical-scroll-proportion="0.17401393">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/newtodo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="16" selection-start="2016" selection-end="2018" vertical-scroll-proportion="-18.061224">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/agenda.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="3753" selection-end="3753" vertical-scroll-proportion="0.29840547">
+        <state line="73" column="64" selection-start="2422" selection-end="2479" vertical-scroll-proportion="-2.9183674">
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -931,6 +884,54 @@
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/todoview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="80" selection-start="5900" selection-end="5964" vertical-scroll-proportion="-6.0408163">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/getwaiting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="0" selection-start="5790" selection-end="5790" vertical-scroll-proportion="-1.9476082">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
