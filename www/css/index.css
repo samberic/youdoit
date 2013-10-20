@@ -140,22 +140,27 @@ h1 {
 }
 
 .todotitle {
-    float:left;height:36px;width:65%;margin:7px;margin-top:12px;
+    float:left;height:36px;width:60%;margin:7px;margin-top:12px;
 }
 
 .todotitle p {
     margin-top:0px;
     font-size:20px;
-    font-weight:bold;line-height: 19px;
+    font-weight:bold;line-height: 19px;text-decoration:none;
 }
 
 .todoowner {
-    float:left;height:20px;width:65%;margin:7px;margin-top:-14px;
+    float:left;height:20px;width:60%;margin:7px;margin-top:-14px;
+}
+
+a:-webkit-any-link{
+text-decoration:none !important;
 }
 
 .todoowner p {
     margin-top:0px;
     font-size:15px;
+    text-decoration:none;
 }
 
 .tododate {
@@ -163,7 +168,7 @@ h1 {
 }
 
 .tododate p {
-        text-align:center;
+        text-align:center;text-decoration:none;
 }
 
 .time {
