@@ -4,10 +4,24 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+
+    <script>document.documentElement.className = 'js';</script>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/slide.min.css" />
+
+
 
     <title>Agenda - Pending</title>
+
+    <style type="text/css">
+        .js .img_slide {
+            /* Overide template's height transitions. */
+            width: 100%;
+            height: 70px;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -71,32 +85,164 @@
 
 <script id="todo-template" type="text/x-handlebars-template">
     {{#each todos}}
-    <a href='todoview.html?id={{_id}}' style="color:#34495e;">
-        <div class="todo">
+        <div class="img_slides_wrap slides_wrap wrap" id="test">
+            <div class="img_slide slide" id="slide1"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
 
-            <div class="contactlogo">
-                <p>{{{logo from}}}
-                <p/>
-            </div>
-            <div class="todotitle">
-                <p>{{todo}}</p>
-            </div>
-            <div class="todoowner">
-                <p>{{from}}</p>
-            </div>
-            <div class="tododate">
-                <p class="time">09:30</p>
+            <a href='javascript:void(0);' onclick='loadView("{{_id}}")' class="img_slide slide active" id="slide2" style="color:#34495e;">
+                <div class="todo">
 
-                <p class="day">18</p>
+                <div class="contactlogo">
+                    <p>{{logo from}}<p/>
+                </div>
+                <div class="todotitle">
+                    <p>{{todo}}</p>
+                </div>
+                <div class="todoowner">
+                    <p>{{from}}</p>
+                </div>
 
-                <p class="month">Oct</p>
-            </div>
+                </div>
+            </a>
 
+            <div class="img_slide slide" id="slide3"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
         </div>
-    </a>
     {{/each}}
 </script>
+
+
+
 <div id="todos" style="padding-bottom: 50px; "></div>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+    <script src="http://stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
+    <script src="js/jquery.event.swipe.js"></script>
+    <script>
+        (function(jQuery, undefined) {
+            jQuery(document).ready(function() {
+                var wrap = jQuery('.slides_wrap'),
+                    slides = wrap.find('.img_slide'),
+                    active = slides.filter('.active'),
+                    i = slides.index(active),
+                    width = wrap.width();
+                    var element = document.getElementById('test');
+
+                // Listen for swipe events on slides, and use a custom 'activate'
+                // event to add and remove the class 'active' to the previous
+                // or next slide, and to keep the index up-to-date. The class
+                // 'active' uses CSS transitions to make the slide move.
+
+                slides
+
+                .on('swipeleft', function(e) {
+                    if (i === slides.length - 1) { return; }
+                    slides.eq(i + 1).trigger('activate');
+                })
+
+                .on('swiperight', function(e) {
+                    if (i === 0) { return; }
+   
+                   slides.eq(i - 1).trigger('activate');
+                })
+
+                .on('activate', function(e) {
+
+
+                    slides.eq(i).removeClass('active');
+
+                    jQuery(e.target).addClass('active');
+
+                    $( "#test" ).fadeOut( "slow", function() {
+                    });
+
+                    // Update the active slide index
+                    i = slides.index(e.target);
+                })
+
+                // The code below handles what happens before any swipe event is triggered.
+                // It makes the slides demo on this page work nicely, but really doesn't
+                // have much to do with demonstrating the swipe events themselves. For more
+                // on move events see:
+                //
+                // http://stephband.info/jquery.event.move
+
+                .on('movestart', function(e) {
+                    // If the movestart heads off in a upwards or downwards
+                    // direction, prevent it so that the browser scrolls normally.
+                    if ((e.distX > e.distY && e.distX < -e.distY) ||
+                        (e.distX < e.distY && e.distX > -e.distY)) {
+                        e.preventDefault();
+                        return;
+                    }
+
+                    // To allow the slide to keep step with the finger,
+                    // temporarily disable transitions.
+                    wrap.addClass('notransition');
+                })
+
+                .on('move', function(e) {
+                    var left = 100 * e.distX / width;
+
+                    // Move slides with the finger
+                    if (e.distX < 0) {
+                        if (slides[i+1]) {
+                            slides[i].style.left = left + '%';
+                            slides[i+1].style.left = (left+100)+'%';
+                        }
+                        else {
+                            slides[i].style.left = left/4 + '%';
+                        }
+                    }
+                    if (e.distX > 0) {
+                        if (slides[i-1]) {
+                            slides[i].style.left = left + '%';
+                            slides[i-1].style.left = (left-100)+'%';
+                        }
+                        else {
+                            slides[i].style.left = left/5 + '%';
+                        }
+                    }
+                })
+
+                .on('moveend', function(e) {
+                    wrap.removeClass('notransition');
+                    
+                    slides[i].style.left = '';
+        
+                    if (slides[i+1]) {
+                        slides[i+1].style.left = '';
+                    }
+                    if (slides[i-1]) {
+                        slides[i-1].style.left = '';
+                    }
+                });
+
+                // Make the buttons work, too. Hijack the id stored in the href and use
+                // it to activate the slide.
+
+                jQuery(document)
+                .on('click', '.slide_button', function(e) {
+                    var href = e.currentTarget.hash;
+
+                    jQuery(href).trigger('activate');
+
+                    e.preventDefault();
+                });
+            });
+        })(jQuery); 
+    </script>
+
+
+
+
+
 
 
 <div class="bottomnav" style="position:fixed;bottom:0;left:0;background:#ecf0f1;width:100%;height:50px;opacity:0.9;">
