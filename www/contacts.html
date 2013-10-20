@@ -12,8 +12,8 @@
 <script src="js/handlebars.js"></script>
 <script type="text/javascript">
 
-    //var url = "pleaseyoudoit.herokuapp.com";
-    var url = "localhost:3000";
+    var url = "pleaseyoudoit.herokuapp.com";
+   // var url = "localhost:3000";
     Handlebars.registerHelper('logo', function (name) {
         return name.substring(0, 2);
     });
@@ -86,8 +86,12 @@
 </div>
 
 <script src="js/jquery.js"></script>
-<script src="js/jquery-mobile.js"></script>
 <script type="text/javascript">
+
+    $(document).bind("mobileinit", function () {
+        $.support.cors = true
+        $.mobile.allowCrossDomainPages = true
+    });
     var contactsSource = $("#contacts-template").html();
     var contactsTemplate = Handlebars.compile(contactsSource);
 
@@ -103,7 +107,9 @@
         })
         return false
     }
+
 </script>
+<script src="js/jquery-mobile.js"></script>
 
 </body>
 </html>
