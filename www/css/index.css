@@ -140,17 +140,17 @@ h1 {
 }
 
 .todotitle {
-    float:left;height:36px;width:50%;margin:7px;
+    float:left;height:36px;width:65%;margin:7px;margin-top:12px;
 }
 
 .todotitle p {
     margin-top:0px;
-    font-size:17px;
+    font-size:20px;
     font-weight:bold;line-height: 16px;
 }
 
 .todoowner {
-    float:left;height:20px;width:50%;margin:7px;margin-top:-7px;
+    float:left;height:20px;width:65%;margin:7px;margin-top:-14px;
 }
 
 .todoowner p {
