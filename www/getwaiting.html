@@ -85,11 +85,11 @@
 
 <script id="todo-template" type="text/x-handlebars-template">
     {{#each todos}}
-        <div class="img_slides_wrap slides_wrap wrap" id="test">
-            <div class="img_slide slide" id="slide1"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
+    <div class="img_slides_wrap slides_wrap wrap" id="test">
+        <div class="img_slide slide" id="slide1"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
 
-            <a href='javascript:void(0);' onclick='loadView("{{_id}}")' class="img_slide slide active" id="slide2" style="color:#34495e;">
-                <div class="todo">
+        <a href='javascript:void(0);' onclick='loadView("{{_id}}")' class="img_slide slide active" id="{{_id}}" style="color:#34495e;">
+            <div class="todo">
 
                 <div class="contactlogo">
                     <p>{{logo from}}<p/>
@@ -101,32 +101,38 @@
                     <p>{{from}}</p>
                 </div>
 
-                </div>
-            </a>
+            </div>
+        </a>
 
-            <div class="img_slide slide" id="slide3"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
-        </div>
+        <div class="img_slide slide" id="slide3"><div style="height:70px;width:100%;background:#2ecc71;"></div></div>
+    </div>
     {{/each}}
 </script>
 
 
 
 <div id="todos" style="padding-bottom: 50px; "></div>
-
-
-
-
-
-
-
-
-
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
     <script src="http://stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
     <script src="js/jquery.event.swipe.js"></script>
     <script>
         (function(jQuery, undefined) {
             jQuery(document).ready(function() {
+                $.ajax({
+                    url:    "http://" + url + "/getWaitingCount?user=" + localStorage['user'],
+                    success: function (data) {
+                        $('#todo').text(data.todos)
+                    },
+                    async:   false
+                });
+                $.ajax({
+                    url:    "http://" + url + "/getWaiting?user=" + localStorage['user'],
+                    success: function (data) {
+                        var html = template(data);
+                        $('#todos').html(html)
+                    },
+                    async:   false
+                });
                 var wrap = jQuery('.slides_wrap'),
                     slides = wrap.find('.img_slide'),
                     active = slides.filter('.active'),
@@ -140,7 +146,6 @@
                 // 'active' uses CSS transitions to make the slide move.
 
                 slides
-
                 .on('swipeleft', function(e) {
                     if (i === slides.length - 1) { return; }
                     slides.eq(i + 1).trigger('activate');
@@ -148,13 +153,12 @@
 
                 .on('swiperight', function(e) {
                     if (i === 0) { return; }
-   
+                    $.get("http://" + url + "/update?id=" + slides.eq(i)[0].id + "&status=completed", function(){})
+
                    slides.eq(i - 1).trigger('activate');
                 })
 
                 .on('activate', function(e) {
-
-
                     slides.eq(i).removeClass('active');
 
                     jQuery(e.target).addClass('active');
@@ -213,9 +217,9 @@
 
                 .on('moveend', function(e) {
                     wrap.removeClass('notransition');
-                    
+
                     slides[i].style.left = '';
-        
+
                     if (slides[i+1]) {
                         slides[i+1].style.left = '';
                     }
@@ -236,7 +240,7 @@
                     e.preventDefault();
                 });
             });
-        })(jQuery); 
+        })(jQuery);
     </script>
 
 
@@ -272,18 +276,6 @@
         $.mobile.allowCrossDomainPages = true
     });
 
-
-    $(document).ready(function () {
-        $.get("http://" + url + "/getWaitingCount?user=" + localStorage['user'],function (data) {
-            $('#todo').text(data.todos)
-        })
-        $.get("http://" + url + "/getWaiting?user=Sam",function (data) {
-            var html = template(data);
-            $('#todos').html(html)
-        })
-        return false;
-
-    });
 </script>
 <script src="js/jquery-mobile.js"></script>
 
